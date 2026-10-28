@@ -2,10 +2,12 @@ package com.example;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello, GitHub Actions Workflow!");
+
+        System.out.println(getGreeting());
+
     }
 
-    public String getGreeting() {
+    public static String getGreeting() {
         return "Hello World";
     }
 }
